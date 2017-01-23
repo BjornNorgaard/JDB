@@ -1,5 +1,5 @@
-FROM node:4-onbuild
-# replace this with your application's default port
+FROM node:latest
+
 EXPOSE 80
 You can then build and run the Docker image:
 
